@@ -1,11 +1,3 @@
-/*-------------------------------------------------------------------
-|  🐼 React FC App
-|
-|  🐯 Purpose: RENDERS REACT APP
-|
-|  🐸 Returns:  JSX
-*-------------------------------------------------------------------*/
-
 import { useEffect, useState } from 'react'
 import { Navigation } from './components'
 import { Form } from './Form'
