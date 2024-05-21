@@ -72,11 +72,15 @@ export const Input = ({
         <>
           {multiType ? (
             <>
-              <div className={cn(input_tailwind) + 'relative flex flex-row'}>
+              <div
+                className={`${cn(
+                  input_tailwind,
+                )} relative flex flex-row dark:bg-gray-800`}
+              >
                 <input
                   id={id}
                   type={passwordType}
-                  className="w-[100%] focus:outline-none dark:bg-gray-800"
+                  className="w-[100%] focus:outline-none dark:bg-gray-800 dark:text-white"
                   placeholder={placeholder}
                   {...register(name, validation)}
                 />
